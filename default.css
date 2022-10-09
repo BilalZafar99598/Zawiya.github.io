@@ -1,0 +1,40 @@
+#table1{
+    width: 95%;
+    margin: auto;
+    border-collapse: collapse;
+}
+table1, td, th {
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+  .default-list{
+      text-align: center;
+  }
+  #paid{
+      background-color: green;
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #unpaid{
+      background-color: yellow;
+      color: red;
+      font-weight: bold;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #offline{
+    background-color: lightblue;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  #online{
+    background-color: lightgreen;
+    color: black;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+  .back{
+    display: flex;
+    justify-content: center;
+} 

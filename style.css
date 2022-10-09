@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-weight: bold; */
+    /* font-family: calibri; */
+    color: darkblue;
+    /* font-size: 1.8vw; */
+    /* outline: 1px solid green; */
+}
+
+.main-container{
+    background: rgb(239, 239, 239);
+    width: fit-content;
+}
+
+.container{
+    /* width: 94vw; */
+    height: fit-content;
+    background: white;
+    /* border: 2px solid black; */
+    margin: auto;
+    padding: 6vh 4vw;
+    margin: 0vh 3.3vw;
+    position: relative;
+}
+
+#personal-info input[type=checkbox]{
+    width: 5vw;
+    height: 4vh;
+    vertical-align: middle;
+}
+
+#personal-info input[type=text],input[type=tel], #personal-info input[type=email]{
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid darkblue;
+    border-right: 0px;
+    background-color: transparent;    
+}
+
+#N{
+    width: 78.8vw;
+}
+
+#DoB{
+    width: 43.5vw;
+}
+
+#FGN{
+    width: 65.8vw;
+}
+
+#NIC{
+    width: 78vw;
+}
+
+#FGO{
+    width: 61.7vw;
+}
+
+#CA{
+    width: 71.7vw;
+}
+
+#PA{
+    width: 69vw;
+}
+
+#PN{
+    width: 20.4vw;
+}
+
+#MN{
+    width: 20.4vw;
+}
+
+#ON{
+    width: 20.4vw;
+}
+
+#EA{
+    width: 72.2vw;
+}
+
+#note{
+    background: darkblue;
+    color: white;
+    font-size: 1.6vw;
+    padding: 0.7vh 9vw;
+    margin-top: 6px;
+}
+
+#Pre-Q{
+    color: darkblue;
+    font-size: 1.8vw;
+    padding: 1vh 0vw;
+}
+
+#qualification{
+    display: flex;
+    background: darkblue;
+    text-align: center;
+}
+
+#qualification label{
+    color: white;
+}
+
+#qualification input{
+    width: 16.5vw;
+}
+
+#btm-form{
+    padding-top: 6vh;
+}
+
+#btm-form input[type=text]{
+    border-top: 0px;
+    border-left: 0px;
+    border-bottom: 2px solid darkblue;
+    border-right: 0px;
+    background: transparent;
+}
+
+#btm-form input[type=checkbox]{
+    height: 3vh;
+    width: 1.5vw;
+}
+
+#CS{
+    width: 61.9vw;
+}
+
+#S{
+    width: 76.7vw;
+}
+
+#O{
+    width: 17.9vw;
+}
+
+#ED{
+    margin-left: 33vw;
+    text-align: middle;
+}
+
+.status{
+    display: flex;
+}
+.check{
+    margin-left: 0.2rem;
+    margin-top: 0.1rem;
+}
+.mainDiv{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 20%; */
+}

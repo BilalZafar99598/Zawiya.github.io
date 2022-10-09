@@ -1,0 +1,4 @@
+.mainDiv,.heading,.btnDiv,.back{
+    display: flex;
+    justify-content: center;
+}
